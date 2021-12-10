@@ -69,7 +69,7 @@ Each page is associated with a [**route**](../03-routing-and-navigation) based o
 >
 > </details>
 >
-> Navigate to http://localhost:3000/about in your development server to see the new page.
+> Navigate to <http://localhost:3000/about> in your development server to see the new page.
 
 ## Special Custom Pages
 
