@@ -4,6 +4,7 @@
   - [What is Next.js](#what-is-nextjs)
   - [Main features of Next.js](#main-features-of-nextjs)
   - [Installation](#installation)
+  - [Next.js scripts](#nextjs-scripts)
   - [Next.js application structure](#nextjs-application-structure)
   - [Linters and Formatters](#linters-and-formatters)
     - [ESLint](#eslint)
@@ -68,6 +69,8 @@ You also can setup manually by installing `react`, `react-dom` and `next`.
 Once the server is running, you should see a page like this one when you access http://localhost:3000:
 
 ![Next starter template](../../resources/images/lab01_home.png)
+
+## Next.js scripts
 
 By using `create-react-app`, a list of scripts is available to facilitate application development at different stages:
 
@@ -236,7 +239,7 @@ ESLint contains code formatting rules which can conflict with the Prettier setup
 >
 > ```json
 > {
->   "printWidth": 100,
+>   "printWidth": 120,
 >   "tabWidth": 2,
 >   "trailingComma": "none"
 > }
@@ -246,11 +249,21 @@ ESLint contains code formatting rules which can conflict with the Prettier setup
 >
 > ```json
 > {
->   "extends": ["next/core-web-vitals", "prettier"]
+>   "extends": ["next", "prettier"]
 > }
 > ```
 >
-> Optionally, you can install the [Prettier Formatter extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for Visual Studio Code
+> Add a new script to your package.json:
+>
+> ```json
+> "scripts": {
+>   ...
+>   "format": "prettier --write ./src"
+>   ...
+> }
+> ```
+>
+> Optionally, you can install the [Prettier Formatter extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for Visual Studio Code and configure it to "Format on save".
 
 ---
 
