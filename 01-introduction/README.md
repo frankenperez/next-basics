@@ -64,11 +64,11 @@ You also can setup manually by installing `react`, `react-dom` and `next`.
 >
 > Run `npm run dev` or `yarn dev` to start the development server on port 3000.
 >
-> Visit http://localhost:3000 to view your application.
+> Visit <http://localhost:3000> to view your application.
 
-Once the server is running, you should see a page like this one when you access http://localhost:3000:
+Once the server is running, you should see a page like this one when you access <http://localhost:3000>:
 
-![Next starter template](../../resources/images/lab01_home.png)
+![Next starter template](../resources/images/lab01_home.png)
 
 ## Next.js scripts
 
@@ -199,7 +199,7 @@ next-app
 > └── readme.md
 > ```
 >
-> If your development server is still running, visit http://localhost:3000 to check your application works.
+> If your development server is still running, visit <http://localhost:3000> to check your application works.
 
 ## Linters and Formatters
 
