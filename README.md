@@ -1,6 +1,6 @@
 # Next.js Basics
 
-Training material and laboratories prepared to divulge about the different rendering models on the web for Front-End developers and the use of Next.js
+Training material and laboratories to be used as a learning/teaching resource and prepared to divulge about the different rendering models on the web for Front-End developers and the use of Next.js
 
 ## Contents
 
